@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="push">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,8 +15,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="package-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -32,7 +31,6 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/chatbot-api-application/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chatbot-api-infrastructrue/src/main/java/cn/chatbot/api/infrastructrue/package-info.java" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/package-info.java" root0="FORCE_HIGHLIGHTING" />
@@ -115,7 +113,7 @@
       <updated>1681985369190</updated>
       <workItem from="1681985370416" duration="633000" />
       <workItem from="1682078466410" duration="1109000" />
-      <workItem from="1682123885932" duration="8733000" />
+      <workItem from="1682123885932" duration="9049000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1682132454060</created>
