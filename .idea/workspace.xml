@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -104,8 +101,16 @@
       <updated>1681985369190</updated>
       <workItem from="1681985370416" duration="633000" />
       <workItem from="1682078466410" duration="1109000" />
-      <workItem from="1682123885932" duration="7145000" />
+      <workItem from="1682123885932" duration="7477000" />
     </task>
+    <task id="LOCAL-00001" summary="push">
+      <created>1682132454060</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682132454060</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,5 +126,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="push" />
+    <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
 </project>
