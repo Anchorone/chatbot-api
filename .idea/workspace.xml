@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="" />
+    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,6 +22,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -53,7 +61,7 @@
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.21363038" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
@@ -96,7 +104,7 @@
       <updated>1681985369190</updated>
       <workItem from="1681985370416" duration="633000" />
       <workItem from="1682078466410" duration="1109000" />
-      <workItem from="1682123885932" duration="2752000" />
+      <workItem from="1682123885932" duration="7145000" />
     </task>
     <servers />
   </component>
