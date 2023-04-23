@@ -44,7 +44,8 @@ public class SpringBootRunTest {
             logger.info("topicId：{} text：{}", topicId, text);
 
             // 回答问题
-//            iZsxqApi.answer(groupId, cookie, topicId, text, false);
+            iZsxqApi.answer(groupId, cookie, topicId, text, false);
+
         }
     }
 
