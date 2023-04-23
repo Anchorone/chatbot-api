@@ -1,7 +1,9 @@
 package cn.chatbot.api.test;
 
+import cn.chatbot.api.domain.ai.IOpenAI;
 import cn.chatbot.api.domain.zsxq.IZsxqApi;
 import cn.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
+import cn.chatbot.api.domain.zsxq.model.vo.Topics;
 import com.alibaba.fastjson.JSON;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +15,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
 import java.io.IOException;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
@@ -26,11 +29,30 @@ public class SpringBootRunTest {
 
     @Resource
     private IZsxqApi iZsxqApi;
+    @Resource
+    private IOpenAI openAI;
+
 
     @Test
     public void test_zsxqApi() throws IOException {
         UnAnsweredQuestionsAggregates unAnsweredQuestionsAggregates = (UnAnsweredQuestionsAggregates) iZsxqApi.queryUnAnsweredQuestionsTopicId(groupId, cookie);
         logger.info("测试结果", JSON.toJSONString(unAnsweredQuestionsAggregates));
+        List<Topics> topics = unAnsweredQuestionsAggregates.getResp_data().getTopics();
+        for (Topics topic : topics) {
+            String topicId = topic.getTopic_id();
+            String text = topic.getQuestion().getText();
+            logger.info("topicId：{} text：{}", topicId, text);
+
+            // 回答问题
+//            iZsxqApi.answer(groupId, cookie, topicId, text, false);
+        }
     }
+
+    @Test
+    public void test_openAi() throws IOException {
+        String response = openAI.doChatGPT("帮我写一个java冒泡排序");
+        logger.info("测试结果：{}", response);
+    }
+
 
 }

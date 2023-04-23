@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="push" />
+    <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="push">
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_10.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_10.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase__Default_Changelist_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/target/classes/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/target/classes/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/target/classes/cn/chatbot/api/domain/ai/service/OpenAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/target/classes/cn/chatbot/api/domain/ai/service/OpenAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -178,8 +193,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.SpringBootRunTest.test_zsxqApi" />
-        <item itemvalue="JUnit.ApiTeat.answer" />
         <item itemvalue="JUnit.ApiTeat.query_unanswered_questions" />
+        <item itemvalue="JUnit.ApiTeat.answer" />
         <item itemvalue="JUnit.ApiTeat.test_chatgpt" />
         <item itemvalue="Spring Boot.Application" />
       </list>
@@ -225,7 +240,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="2023-4-22_zx_APITest" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
