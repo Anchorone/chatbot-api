@@ -1,0 +1,517 @@
+Index: chatbot-api-interfaces/src/main/resources/application.yml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>server:\r\n  port: 8090\r\n\r\nchatbot-api:\r\n  groupId: 88885818842852\r\n  cookie: \"sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3\"
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-interfaces/src/main/resources/application.yml b/chatbot-api-interfaces/src/main/resources/application.yml
+--- a/chatbot-api-interfaces/src/main/resources/application.yml	(revision d4f3bcba2f9559508780472dc294a4c1a7019d8e)
++++ b/chatbot-api-interfaces/src/main/resources/application.yml	(date 1682236820352)
+@@ -3,4 +3,5 @@
+ 
+ chatbot-api:
+   groupId: 88885818842852
+-  cookie: "sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3"
+\ No newline at end of file
++  cookie: "sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3"
++  openAiKey: ""  #没有密钥
+\ No newline at end of file
+Index: chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.chatbot.api.test;\r\n\r\nimport cn.chatbot.api.domain.zsxq.IZsxqApi;\r\nimport cn.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;\r\nimport com.alibaba.fastjson.JSON;\r\nimport org.junit.Test;\r\nimport org.junit.runner.RunWith;\r\nimport org.slf4j.Logger;\r\nimport org.slf4j.LoggerFactory;\r\nimport org.springframework.beans.factory.annotation.Value;\r\nimport org.springframework.boot.test.context.SpringBootTest;\r\nimport org.springframework.test.context.junit4.SpringRunner;\r\n\r\nimport javax.annotation.Resource;\r\nimport java.io.IOException;\r\n\r\n@RunWith(SpringRunner.class)\r\n@SpringBootTest\r\npublic class SpringBootRunTest {\r\n    private Logger logger = LoggerFactory.getLogger(SpringBootRunTest.class);\r\n\r\n    @Value(\"${chatbot-api.groupId}\")\r\n    private String groupId;\r\n    @Value(\"${chatbot-api.cookie}\")\r\n    private String cookie;\r\n\r\n    @Resource\r\n    private IZsxqApi iZsxqApi;\r\n\r\n    @Test\r\n    public void test_zsxqApi() throws IOException {\r\n        UnAnsweredQuestionsAggregates unAnsweredQuestionsAggregates = (UnAnsweredQuestionsAggregates) iZsxqApi.queryUnAnsweredQuestionsTopicId(groupId, cookie);\r\n        logger.info(\"测试结果\", JSON.toJSONString(unAnsweredQuestionsAggregates));\r\n    }\r\n\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java b/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java
+--- a/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java	(revision d4f3bcba2f9559508780472dc294a4c1a7019d8e)
++++ b/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java	(date 1682238871874)
+@@ -1,7 +1,9 @@
+ package cn.chatbot.api.test;
+ 
++import cn.chatbot.api.domain.ai.IOpenAI;
+ import cn.chatbot.api.domain.zsxq.IZsxqApi;
+ import cn.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;
++import cn.chatbot.api.domain.zsxq.model.vo.Topics;
+ import com.alibaba.fastjson.JSON;
+ import org.junit.Test;
+ import org.junit.runner.RunWith;
+@@ -13,6 +15,7 @@
+ 
+ import javax.annotation.Resource;
+ import java.io.IOException;
++import java.util.List;
+ 
+ @RunWith(SpringRunner.class)
+ @SpringBootTest
+@@ -26,11 +29,27 @@
+ 
+     @Resource
+     private IZsxqApi iZsxqApi;
++    @Resource
++    private IOpenAI iOpenAI;
+ 
+     @Test
+     public void test_zsxqApi() throws IOException {
+         UnAnsweredQuestionsAggregates unAnsweredQuestionsAggregates = (UnAnsweredQuestionsAggregates) iZsxqApi.queryUnAnsweredQuestionsTopicId(groupId, cookie);
+         logger.info("测试结果", JSON.toJSONString(unAnsweredQuestionsAggregates));
++        List<Topics> topics = unAnsweredQuestionsAggregates.getResp_data().getTopics();
++        for (Topics topic : topics) {
++            String topicId = topic.getTopic_id();
++            String text = topic.getQuestion().getText();
++            logger.info("topicId：{} text：{}", topicId, text);
++            // 回答问题，该处测试使用的回复是问题本身
++            iZsxqApi.answer(groupId, cookie, topicId, text, false);
++        }
++    }
++
++    @Test
++    public void test_openAI() throws IOException{
++        String response = iOpenAI.doChatGPT("写一个冒泡排序");
++        logger.info("测试结果：{}",response);
+     }
+ 
+ }
+Index: chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.chatbot.api.test;\r\n\r\nimport org.apache.http.HttpStatus;\r\nimport org.apache.http.client.methods.CloseableHttpResponse;\r\nimport org.apache.http.client.methods.HttpGet;\r\nimport org.apache.http.client.methods.HttpPost;\r\nimport org.apache.http.entity.ContentType;\r\nimport org.apache.http.entity.StringEntity;\r\nimport org.apache.http.impl.client.CloseableHttpClient;\r\nimport org.apache.http.impl.client.HttpClientBuilder;\r\nimport org.apache.http.util.EntityUtils;\r\nimport org.junit.Test;\r\n\r\nimport java.io.IOException;\r\n\r\npublic class ApiTeat {\r\n    @Test\r\n    public void query_unanswered_questions() throws IOException {\r\n        CloseableHttpClient httpClient = HttpClientBuilder.create().build();\r\n\r\n        HttpGet get = new HttpGet(\"https://api.zsxq.com/v2/groups/88885818842852/topics?scope=unanswered_questions&count=20\");\r\n\r\n        get.addHeader(\"cookie\",\"sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3\");\r\n\r\n        get.addHeader(\"Content-Type\",\"application/json, text/plain, */*\");\r\n\r\n        CloseableHttpResponse response = httpClient.execute(get);\r\n\r\n        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){\r\n            String res = EntityUtils.toString(response.getEntity());\r\n            System.out.println(res);\r\n        }else {\r\n            System.out.println(response.getStatusLine().getStatusCode());\r\n        }\r\n    }\r\n\r\n    @Test\r\n    public void answer() throws IOException {\r\n        CloseableHttpClient httpClient = HttpClientBuilder.create().build();\r\n\r\n        HttpPost post = new HttpPost(\"\");\r\n        post.addHeader(\"cookie\",\"sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3\");\r\n        post.addHeader(\"Content-Type\",\"application/json, text/plain, */*\");\r\n\r\n        String paramJson = \"\";\r\n\r\n        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create(\"text/json\",\"UTF-8\"));\r\n        post.setEntity(stringEntity);\r\n\r\n        CloseableHttpResponse response = httpClient.execute(post);\r\n        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){\r\n            String res = EntityUtils.toString(response.getEntity());\r\n            System.out.println(res);\r\n        }else {\r\n            System.out.println(response.getStatusLine().getStatusCode());\r\n        }\r\n    }\r\n   \r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java b/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java
+--- a/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java	(revision d4f3bcba2f9559508780472dc294a4c1a7019d8e)
++++ b/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java	(date 1682235376004)
+@@ -38,22 +38,53 @@
+     public void answer() throws IOException {
+         CloseableHttpClient httpClient = HttpClientBuilder.create().build();
+ 
+-        HttpPost post = new HttpPost("");
++        HttpPost post = new HttpPost("https://api.zsxq.com/v2/topics/814248582422212/answer");
+         post.addHeader("cookie","sensorsdata2015jssdkcross=%7B%22distinct_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%2C%22first_id%22%3A%22%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%2C%22%24latest_search_keyword%22%3A%22%E6%9C%AA%E5%8F%96%E5%88%B0%E5%80%BC_%E7%9B%B4%E6%8E%A5%E6%89%93%E5%BC%80%22%2C%22%24latest_referrer%22%3A%22%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMTg3M2Q1ZWQxOTUyMzUtMDM2MzYxNDVlMWNjYmFlLTdhNTQ1NDcxLTEwMjQwMDAtMTg3M2Q1ZWQxOTY4MWIifQ%3D%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%22%2C%22value%22%3A%22%22%7D%2C%22%24device_id%22%3A%221873d5ed195235-03636145e1ccbae-7a545471-1024000-1873d5ed19681b%22%7D; zsxqsessionid=70f1c58a9142e88c148ec1cd85e747b4; abtest_env=product; zsxq_access_token=C3D01E83-34B8-1DB8-049D-9006C97857D9_9F31FDFBAA33A9A3");
+         post.addHeader("Content-Type","application/json, text/plain, */*");
+ 
+-        String paramJson = "";
++        String paramJson = "{\n" +
++                "  \"req_data\": {\n" +
++                "    \"text\": \"自己去！\\n\",\n" +
++                "    \"image_ids\": [],\n" +
++                "    \"silenced\": false\n" +
++                "  }\n" +
++                "}";
++
++
++        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json","UTF-8"));
++        post.setEntity(stringEntity);
++
++        CloseableHttpResponse response = httpClient.execute(post);
++        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
++            String res = EntityUtils.toString(response.getEntity());
++            System.out.println(res);
++        }else {
++            System.out.println(response.getStatusLine().getStatusCode());
++        }
++    }
++
++    @Test
++    public void test_chatgpt() throws IOException {
++        CloseableHttpClient httpClient = HttpClientBuilder.create().build();
++
++        HttpPost post = new HttpPost("https://api.openai.com/v1/completions");
++        post.addHeader("Content-Type", "application/json");
++        post.addHeader("Authorization", "Bearer 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");
++
++        String paramJson = "{\"model\": \"text-davinci-003\", \"prompt\": \"帮我写一个java冒泡排序\", \"temperature\": 0, \"max_tokens\": 1024}";
+ 
+-        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json","UTF-8"));
++        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
+         post.setEntity(stringEntity);
+ 
+         CloseableHttpResponse response = httpClient.execute(post);
+-        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){
++        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
+             String res = EntityUtils.toString(response.getEntity());
+             System.out.println(res);
+-        }else {
++        } else {
+             System.out.println(response.getStatusLine().getStatusCode());
+         }
++
+     }
+-   
++
++
+ }
+Index: chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>package cn.chatbot.api.domain.zsxq.service;\r\n\r\nimport cn.chatbot.api.domain.zsxq.IZsxqApi;\r\nimport cn.chatbot.api.domain.zsxq.model.aggregates.UnAnsweredQuestionsAggregates;\r\nimport cn.chatbot.api.domain.zsxq.model.req.AnswerReq;\r\nimport cn.chatbot.api.domain.zsxq.model.req.ReqData;\r\nimport cn.chatbot.api.domain.zsxq.model.res.AnswerRes;\r\nimport com.alibaba.fastjson.JSON;\r\nimport net.sf.json.JSONObject;\r\nimport org.apache.http.HttpStatus;\r\nimport org.apache.http.client.methods.CloseableHttpResponse;\r\nimport org.apache.http.client.methods.HttpGet;\r\nimport org.apache.http.client.methods.HttpPost;\r\nimport org.apache.http.entity.ContentType;\r\nimport org.apache.http.entity.StringEntity;\r\nimport org.apache.http.impl.client.CloseableHttpClient;\r\nimport org.apache.http.impl.client.HttpClientBuilder;\r\nimport org.apache.http.util.EntityUtils;\r\nimport org.slf4j.Logger;\r\nimport org.slf4j.LoggerFactory;\r\nimport org.springframework.stereotype.Service;\r\n\r\nimport java.io.IOException;\r\nimport java.lang.reflect.Type;\r\n\r\n@Service\r\npublic class ZsxqApi implements IZsxqApi {\r\n\r\n    private Logger logger = LoggerFactory.getLogger(ZsxqApi.class);\r\n\r\n    @Override\r\n    public Object queryUnAnsweredQuestionsTopicId(String groupId, String cookie) throws IOException {\r\n        CloseableHttpClient httpClient = HttpClientBuilder.create().build();\r\n\r\n        HttpGet get = new HttpGet(\"https://api.zsxq.com/v2/groups/\" + groupId + \"/topics?scope=unanswered_questions&count=20\");\r\n\r\n        get.addHeader(\"cookie\",cookie);\r\n        get.addHeader(\"Content-Type\",\"application/json, text/plain, */*\");\r\n\r\n        CloseableHttpResponse response = httpClient.execute(get);\r\n        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){\r\n            String jsonStr = EntityUtils.toString(response.getEntity());\r\n            logger.info(\"拉取提问数据。groupId：{} jsonStr：{}\", groupId, jsonStr);\r\n            return JSON.parseObject(jsonStr,UnAnsweredQuestionsAggregates.class);\r\n        }else {\r\n            return new RuntimeException(\"queryUnAnsweredQuestionsTopicId Err Code is \" + response.getStatusLine().getStatusCode());\r\n        }\r\n\r\n    }\r\n\r\n    @Override\r\n    public boolean answer(String groupId, String cookie, String topicId, String text, boolean silenced) throws IOException {\r\n        CloseableHttpClient httpClient = HttpClientBuilder.create().build();\r\n\r\n        HttpPost post = new HttpPost(\"https://api.zsxq.com/v2/topics/\" + topicId + \"/answer\");\r\n        post.addHeader(\"cookie\",cookie);\r\n        post.addHeader(\"Content-Type\",\"application/json, text/plain, */*\");\r\n        /*这个值要修改*/\r\n        post.addHeader(\"user-agent\",\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36\");\r\n\r\n        AnswerReq answerReq = new AnswerReq(new ReqData(text,silenced));\r\n        String paramJson = JSONObject.fromObject(answerReq).toString();\r\n\r\n        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create(\"text/json\",\"UTF-8\"));\r\n        post.setEntity(stringEntity);\r\n\r\n        CloseableHttpResponse response = httpClient.execute(post);\r\n        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK){\r\n            String jsonStr = EntityUtils.toString(response.getEntity());\r\n            logger.info(\"回答问题结果。groupId：{} topicId：{} jsonStr：{}\", groupId, topicId, jsonStr);\r\n            AnswerRes answerRes = JSON.parseObject(jsonStr, AnswerRes.class);\r\n            return answerRes.isSucceeded();\r\n        }else {\r\n            throw new RuntimeException(\"answer Err Code is \" + response.getStatusLine().getStatusCode());\r\n        }\r\n}\r\n}\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java
+--- a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java	(revision d4f3bcba2f9559508780472dc294a4c1a7019d8e)
++++ b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java	(date 1682236664533)
+@@ -45,7 +45,6 @@
+         }else {
+             return new RuntimeException("queryUnAnsweredQuestionsTopicId Err Code is " + response.getStatusLine().getStatusCode());
+         }
+-
+     }
+ 
+     @Override
+@@ -55,8 +54,7 @@
+         HttpPost post = new HttpPost("https://api.zsxq.com/v2/topics/" + topicId + "/answer");
+         post.addHeader("cookie",cookie);
+         post.addHeader("Content-Type","application/json, text/plain, */*");
+-        /*这个值要修改*/
+-        post.addHeader("user-agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36");
++        post.addHeader("user-agent","Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36 Edg/112.0.1722.48");
+ 
+         AnswerReq answerReq = new AnswerReq(new ReqData(text,silenced));
+         String paramJson = JSONObject.fromObject(answerReq).toString();
+Index: chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java
+new file mode 100644
+--- /dev/null	(date 1682232942175)
++++ b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java	(date 1682232942175)
+@@ -0,0 +1,10 @@
++package cn.chatbot.api.domain.ai;
++
++import java.io.IOException;
++
++/**
++ * chatgpt open ai接口
++ */
++public interface IOpenAI {
++    String doChatGPT(String question) throws IOException;
++}
+Index: chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java
+new file mode 100644
+--- /dev/null	(date 1682233240024)
++++ b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java	(date 1682233240024)
+@@ -0,0 +1,57 @@
++package cn.chatbot.api.domain.ai.model.aggregates;
++
++import cn.chatbot.api.domain.ai.model.vo.Choices;
++
++import java.util.List;
++
++public class AIAnswer {
++    private String id;
++
++    private String object;
++
++    private int created;
++
++    private String model;
++
++    private List<Choices> choices;
++
++    public String getId() {
++        return id;
++    }
++
++    public void setId(String id) {
++        this.id = id;
++    }
++
++    public String getObject() {
++        return object;
++    }
++
++    public void setObject(String object) {
++        this.object = object;
++    }
++
++    public int getCreated() {
++        return created;
++    }
++
++    public void setCreated(int created) {
++        this.created = created;
++    }
++
++    public String getModel() {
++        return model;
++    }
++
++    public void setModel(String model) {
++        this.model = model;
++    }
++
++    public List<Choices> getChoices() {
++        return choices;
++    }
++
++    public void setChoices(List<Choices> choices) {
++        this.choices = choices;
++    }
++}
+Index: chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java
+new file mode 100644
+--- /dev/null	(date 1682233144381)
++++ b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java	(date 1682233144381)
+@@ -0,0 +1,43 @@
++package cn.chatbot.api.domain.ai.model.vo;
++
++public class Choices {
++    private String text;
++
++    private int index;
++
++    private String logprobs;
++
++    private String finish_reason;
++
++    public String getText() {
++        return text;
++    }
++
++    public void setText(String text) {
++        this.text = text;
++    }
++
++    public int getIndex() {
++        return index;
++    }
++
++    public void setIndex(int index) {
++        this.index = index;
++    }
++
++    public String getLogprobs() {
++        return logprobs;
++    }
++
++    public void setLogprobs(String logprobs) {
++        this.logprobs = logprobs;
++    }
++
++    public String getFinish_reason() {
++        return finish_reason;
++    }
++
++    public void setFinish_reason(String finish_reason) {
++        this.finish_reason = finish_reason;
++    }
++}
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"8c8cc8b0-5183-4ab9-9170-f72c4684e870\" name=\"Default Changelist\" comment=\"push\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/IZsxqApi.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/aggregates/UnAnsweredQuestionsAggregates.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/req/AnswerReq.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/req/ReqData.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/res/AnswerRes.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/res/RespData.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Group.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Owner.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Question.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Questionee.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Topics.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/UserSpecific.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/encodings.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/encodings.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatbot-api-domain/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatbot-api-domain/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatbot-api-interfaces/pom.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatbot-api-interfaces/pom.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"package-info\" />\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"master\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitSEFilterConfiguration\">\r\n    <file-type-list>\r\n      <filtered-out-file-type name=\"LOCAL_BRANCH\" />\r\n      <filtered-out-file-type name=\"REMOTE_BRANCH\" />\r\n      <filtered-out-file-type name=\"TAG\" />\r\n      <filtered-out-file-type name=\"COMMIT_BY_MESSAGE\" />\r\n    </file-type-list>\r\n  </component>\r\n  <component name=\"HighlightingSettingsPerFile\">\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-application/pom.xml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-infrastructrue/src/main/java/cn/chatbot/api/infrastructrue/package-info.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-interfaces/pom.xml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/package-info.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/pom.xml\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-interfaces/src/main/java/cn/chatbot/api/Application.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n    <setting file=\"file://$PROJECT_DIR$/chatbot-api-application/src/main/java/cn/chatbot/api/appliaction/package-info.java\" root0=\"FORCE_HIGHLIGHTING\" />\r\n  </component>\r\n  <component name=\"MavenImportPreferences\">\r\n    <option name=\"generalSettings\">\r\n      <MavenGeneralSettings>\r\n        <option name=\"localRepository\" value=\"D:\\m2\\repository\" />\r\n        <option name=\"mavenHome\" value=\"$PROJECT_DIR$/../../soft/apache-maven/apache-maven-3.8.4-bin/apache-maven-3.8.4\" />\r\n        <option name=\"userSettingsFile\" value=\"D:\\m2\\settings.xml\" />\r\n      </MavenGeneralSettings>\r\n    </option>\r\n    <option name=\"disabledProfiles\">\r\n      <list>\r\n        <option value=\"jdk-11\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2Ogbr97nkuxCJMKPcMoL0oJtXeO\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"RunOnceActivity.OpenProjectViewOnStart\" value=\"true\" />\r\n    <property name=\"RunOnceActivity.ShowReadmeOnStart\" value=\"true\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"aspect.path.notification.shown\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.eslint\" value=\"true\" />\r\n    <property name=\"node.js.detected.package.tslint\" value=\"true\" />\r\n    <property name=\"node.js.selected.package.eslint\" value=\"(autodetect)\" />\r\n    <property name=\"node.js.selected.package.tslint\" value=\"(autodetect)\" />\r\n    <property name=\"project.structure.last.edited\" value=\"Artifacts\" />\r\n    <property name=\"project.structure.proportion\" value=\"0.15\" />\r\n    <property name=\"project.structure.side.proportion\" value=\"0.21363038\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"org.jetbrains.plugins.github.ui.GithubSettingsConfigurable\" />\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"JUnit.SpringBootRunTest.test_zsxqApi\">\r\n    <configuration default=\"true\" type=\"ArquillianJUnit\" factoryName=\"\" nameIsGenerated=\"true\">\r\n      <option name=\"arquillianRunConfiguration\">\r\n        <value>\r\n          <option name=\"containerStateName\" value=\"\" />\r\n        </value>\r\n      </option>\r\n      <option name=\"TEST_OBJECT\" value=\"class\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"ApiTeat.query_unanswered_questions\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.chatbot.api.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"cn.chatbot.api.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cn.chatbot.api.test.ApiTeat\" />\r\n      <option name=\"METHOD_NAME\" value=\"query_unanswered_questions\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"SpringBootRunTest.test_zsxqApi\" type=\"JUnit\" factoryName=\"JUnit\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.chatbot.api.test.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"PACKAGE_NAME\" value=\"cn.chatbot.api.test\" />\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"cn.chatbot.api.test.SpringBootRunTest\" />\r\n      <option name=\"METHOD_NAME\" value=\"test_zsxqApi\" />\r\n      <option name=\"TEST_OBJECT\" value=\"method\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"Application\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <module name=\"chatbot-api-interfaces\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"cn.chatbot.api.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"cn.chatbot.api.Application\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"JUnit.SpringBootRunTest.test_zsxqApi\" />\r\n        <item itemvalue=\"JUnit.ApiTeat.query_unanswered_questions\" />\r\n        <item itemvalue=\"Spring Boot.Application\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"8c8cc8b0-5183-4ab9-9170-f72c4684e870\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1681985369190</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1681985369190</updated>\r\n      <workItem from=\"1681985370416\" duration=\"633000\" />\r\n      <workItem from=\"1682078466410\" duration=\"1109000\" />\r\n      <workItem from=\"1682123885932\" duration=\"12401000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"push\">\r\n      <created>1682132454060</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682132454060</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"push\">\r\n      <created>1682134840926</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1682134840926</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"3\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n    <option name=\"oldMeFiltersMigrated\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"push\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"push\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision d4f3bcba2f9559508780472dc294a4c1a7019d8e)
++++ b/.idea/workspace.xml	(date 1682238761268)
+@@ -5,27 +5,15 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="8c8cc8b0-5183-4ab9-9170-f72c4684e870" name="Default Changelist" comment="push">
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/IZsxqApi.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/aggregates/UnAnsweredQuestionsAggregates.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/req/AnswerReq.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/req/ReqData.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/res/AnswerRes.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/res/RespData.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Group.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Owner.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/OwnerDetail.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Question.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Questionee.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/Topics.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/model/vo/UserSpecific.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/IOpenAI.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/aggregates/AIAnswer.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/model/vo/Choices.java" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/pom.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/pom.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/zsxq/service/ZsxqApi.java" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/main/resources/application.yml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/ApiTeat.java" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/chatbot-api-interfaces/src/test/java/cn/chatbot/api/test/SpringBootRunTest.java" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -88,6 +76,10 @@
+     <option name="showLibraryContents" value="true" />
+   </component>
+   <component name="PropertiesComponent">
++    <property name="RequestMappingsPanelOrder0" value="0" />
++    <property name="RequestMappingsPanelOrder1" value="1" />
++    <property name="RequestMappingsPanelWidth0" value="75" />
++    <property name="RequestMappingsPanelWidth1" value="75" />
+     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+@@ -103,13 +95,31 @@
+     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+   </component>
+   <component name="RunManager" selected="JUnit.SpringBootRunTest.test_zsxqApi">
+-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
++    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+       <option name="arquillianRunConfiguration">
+         <value>
+           <option name="containerStateName" value="" />
+         </value>
+       </option>
+-      <option name="TEST_OBJECT" value="class" />
++      <option name="TEST_OBJECT" value="CLASS" />
++      <properties />
++      <listeners />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ApiTeat.answer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="chatbot-api-interfaces" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="cn.chatbot.api.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="cn.chatbot.api.test" />
++      <option name="MAIN_CLASS_NAME" value="cn.chatbot.api.test.ApiTeat" />
++      <option name="METHOD_NAME" value="answer" />
++      <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+       </method>
+@@ -125,6 +135,22 @@
+       <option name="PACKAGE_NAME" value="cn.chatbot.api.test" />
+       <option name="MAIN_CLASS_NAME" value="cn.chatbot.api.test.ApiTeat" />
+       <option name="METHOD_NAME" value="query_unanswered_questions" />
++      <option name="TEST_OBJECT" value="method" />
++      <method v="2">
++        <option name="Make" enabled="true" />
++      </method>
++    </configuration>
++    <configuration name="ApiTeat.test_chatgpt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
++      <module name="chatbot-api-interfaces" />
++      <extension name="coverage">
++        <pattern>
++          <option name="PATTERN" value="cn.chatbot.api.test.*" />
++          <option name="ENABLED" value="true" />
++        </pattern>
++      </extension>
++      <option name="PACKAGE_NAME" value="cn.chatbot.api.test" />
++      <option name="MAIN_CLASS_NAME" value="cn.chatbot.api.test.ApiTeat" />
++      <option name="METHOD_NAME" value="test_chatgpt" />
+       <option name="TEST_OBJECT" value="method" />
+       <method v="2">
+         <option name="Make" enabled="true" />
+@@ -162,7 +188,9 @@
+     <recent_temporary>
+       <list>
+         <item itemvalue="JUnit.SpringBootRunTest.test_zsxqApi" />
++        <item itemvalue="JUnit.ApiTeat.answer" />
+         <item itemvalue="JUnit.ApiTeat.query_unanswered_questions" />
++        <item itemvalue="JUnit.ApiTeat.test_chatgpt" />
+         <item itemvalue="Spring Boot.Application" />
+       </list>
+     </recent_temporary>
+@@ -178,6 +206,9 @@
+       <workItem from="1681985370416" duration="633000" />
+       <workItem from="1682078466410" duration="1109000" />
+       <workItem from="1682123885932" duration="12401000" />
++      <workItem from="1682214653235" duration="975000" />
++      <workItem from="1682215655792" duration="3891000" />
++      <workItem from="1682232106829" duration="5585000" />
+     </task>
+     <task id="LOCAL-00001" summary="push">
+       <created>1682132454060</created>
+Index: chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java
+new file mode 100644
+--- /dev/null	(date 1682234504502)
++++ b/chatbot-api-domain/src/main/java/cn/chatbot/api/domain/ai/service/OpenAI.java	(date 1682234504502)
+@@ -0,0 +1,61 @@
++package cn.chatbot.api.domain.ai.service;
++
++import cn.chatbot.api.domain.ai.IOpenAI;
++import cn.chatbot.api.domain.ai.model.aggregates.AIAnswer;
++import cn.chatbot.api.domain.ai.model.vo.Choices;
++import com.alibaba.fastjson.JSON;
++import org.apache.http.HttpStatus;
++import org.apache.http.client.methods.CloseableHttpResponse;
++import org.apache.http.client.methods.HttpPost;
++import org.apache.http.entity.ContentType;
++import org.apache.http.entity.StringEntity;
++import org.apache.http.impl.client.CloseableHttpClient;
++import org.apache.http.impl.client.HttpClientBuilder;
++import org.apache.http.util.EntityUtils;
++import org.slf4j.Logger;
++import org.slf4j.LoggerFactory;
++import org.springframework.beans.factory.annotation.Value;
++import org.springframework.stereotype.Service;
++
++import java.io.IOException;
++import java.util.List;
++
++@Service
++public class OpenAI implements IOpenAI {
++
++    private Logger logger = LoggerFactory.getLogger(OpenAI.class);
++
++    @Value("${chatbot-api.openAiKey}")
++    private String openAiKey;
++
++    @Override
++    public String doChatGPT(String question) throws IOException {
++
++        CloseableHttpClient httpClient = HttpClientBuilder.create().build();
++
++        HttpPost post = new HttpPost("https://api.openai.com/v1/completions");
++        post.addHeader("Content-Type", "application/json");
++        post.addHeader("Authorization", "Bearer " + openAiKey);
++
++        String paramJson = "{\"model\": \"text-davinci-003\", \"prompt\": \"" + question +"\", \"temperature\": 0, \"max_tokens\": 1024}";
++
++        StringEntity stringEntity = new StringEntity(paramJson, ContentType.create("text/json", "UTF-8"));
++        post.setEntity(stringEntity);
++
++        CloseableHttpResponse response = httpClient.execute(post);
++        if (response.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
++            String jsonStr = EntityUtils.toString(response.getEntity());
++            AIAnswer aiAnswer = JSON.parseObject(jsonStr, AIAnswer.class);
++            StringBuilder answers = new StringBuilder();
++            List<Choices> choices = aiAnswer.getChoices();
++            for (Choices choice : choices) {
++                answers.append(choice.getText());
++            }
++            return answers.toString();
++        } else {
++            throw new RuntimeException("api.openai.com Err Code is " + response.getStatusLine().getStatusCode());
++        }
++
++
++    }
++}

@@ -1,0 +1,9 @@
+<changelist name="Uncommitted_changes_before_rebase_[Default_Changelist]11" date="1682239098890" recycled="false" toDelete="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]11/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before rebase [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="chatbot-api-domain/target/classes/cn/chatbot/api/domain/zsxq/service/ZsxqApi.class" />
+    <option name="AFTER_PATH" value="chatbot-api-domain/target/classes/cn/chatbot/api/domain/zsxq/service/ZsxqApi.class" />
+    <option name="SHELVED_PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_rebase_[Default_Changelist]11/ZsxqApi.class" />
+  </binary>
+</changelist>
