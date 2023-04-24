@@ -57,7 +57,7 @@ public class ChatbotSchedule {
                 logger.info("本次检索未查询到待回答问题");
                 return;
             }
-            //2、AI回答
+            //2、AI回答，doChatGPT方法没有跑通，因为没有openAIKey
             Topics topic = topics.get(0);
             String answer = openAI.doChatGPT(topic.getQuestion().getText());
             //3、问题回复
